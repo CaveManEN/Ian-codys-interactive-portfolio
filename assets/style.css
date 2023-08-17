@@ -1,0 +1,142 @@
+
+header {
+    
+    text-align: center;
+    color: pink;
+    justify-content: center;
+    margin-bottom: -10px;
+    
+}
+/* this is for the nav bar*/
+
+.link {
+    text-decoration: none;
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: black;
+    
+    
+}
+/* makes nav glow and change color when hovering */
+.link:hover{
+    color: lightskyblue;
+    box-shadow: 0px 0px 100px black;
+    
+}
+/* this is the box at the top of the page that includes header and nav */
+.box {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+    justify-content: center;
+   position: fixed;
+    background-image: linear-gradient(to right, black,lightskyblue, black);
+    border-radius: 20px; 
+    opacity: .9;
+    margin-top: -10px;
+}
+
+/* This is for the About Me box */
+.box2{
+    width: 70%;
+    background-image: linear-gradient(black, lightskyblue);
+    border-radius: 10px;
+    margin-left: 14.5%;
+    margin-top: 30px;
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+/* this is the accounts box */
+.box3{
+    width: 65%;
+    border-radius: 10px;
+    margin-left: 17%;
+    margin-top: 30px;
+    padding: 10px;
+    background-image: linear-gradient(to top,lightskyblue, black);
+    text-align: center;
+    list-style-type: none;
+    height: 120px;
+}
+/* this is the previous work box */
+.box4 {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background-image: linear-gradient(lightskyblue, black);
+    text-align: center;
+}
+
+/* this is the picture of myself */
+img {
+    width: 30%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 10PX;
+    border: 5px solid pink;
+
+}
+
+/* these are the accounts listed under my accounts class */
+li {
+    list-style-type:none;
+    margin-right: 20px;
+    color: pink;
+    line-height: 30px;
+    
+}
+body {
+    color: pink;
+    background-color: BLACK;
+    
+}
+
+h2 {
+ text-align: center;
+ margin-left: 100px;
+ 
+}
+
+p {
+    text-align: center;
+}
+
+nav {
+    font-size: larger;
+    flex-direction: row;
+    margin-top: 1px;
+}
+
+/* this is for the first and third picture under previous work */
+.img2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+/* this makes the pictures glow on hover */
+.img2:hover{
+    color: pink;
+     box-shadow: 0 0 100px pink;
+
+}
+/*this is for the second picture under previous work*/
+.img3 {
+    width: 50%;
+    height: 50%;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.img3:hover{
+    color: pink;
+     box-shadow: 0 0 100px pink;
+
+}
