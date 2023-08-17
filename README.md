@@ -4,5 +4,3 @@
 
 ## Here is the link to the site: https://cavemanen.github.io/Ian-codys-interactive-portfolio/
 
-# Here is an image showing the site:
- alt="Screenshot 2023-08-17 at 1 14 14 AM" src="https://github.com/CaveManEN/practice/assets/139927655/fa2bc636-b669-4213-931a-cc53b3a72feb">
